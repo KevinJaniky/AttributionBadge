@@ -11,6 +11,7 @@ function ab_define_block_init()
             'render_callback' => 'ab_block_render_callback',
             'category'        => 'formatting',
             'icon'            => 'admin-comments',
+            'mode' => 'edit',
             'keywords'        => array('attribution', 'badge', 'author', 'unsplash'),
         ));
     }
